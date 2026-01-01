@@ -32,3 +32,13 @@ elif( len(password) >= 10 and
 
 else:
     print("Medium Password")
+
+print("\nSuggestions:")
+if not has_upper:
+    print("- Add uppercase letters")
+if not has_lower:
+    print("- Add lowercase letters")
+if not has_digit:
+    print("- Add numbers")
+if not has_special:
+    print("- Add special characters")
